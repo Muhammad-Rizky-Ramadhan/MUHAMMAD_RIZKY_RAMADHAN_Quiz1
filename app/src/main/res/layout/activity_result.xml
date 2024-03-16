@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="25dp"
+        android:id="@+id/welcome"
+        android:text="Selamat Datang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="38dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="38dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaksi Hari Ini:"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvDiskonHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvDiskonMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terimakasih Telah Berbelanja disini"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="239dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:paddingTop="25dp"
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pembeli">
+    </EditText>
+
+    <TextView
+        android:paddingLeft="25dp"
+        android:id="@+id/typee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe Pelanggan"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <RadioGroup
+        android:paddingLeft="25dp"
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/goldButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold" />
+
+        <RadioButton
+            android:id="@+id/silverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver" />
+
+        <RadioButton
+            android:id="@+id/regulerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reguler" />
+    </RadioGroup>
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:id="@+id/kodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Barang">
+    </EditText>
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:id="@+id/jumlahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Barang"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <Button
+        android:id="@+id/beliButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
