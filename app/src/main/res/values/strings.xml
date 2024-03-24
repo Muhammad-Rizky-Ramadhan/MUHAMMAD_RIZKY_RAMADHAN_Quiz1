@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">MUHAMMAD RIZKY RAMADHAN Quiz 1</string>
+    <string name="app_name">MUHAMMAD RIZKY RAMADHAN Task 5</string>
+    <string name="hint_name">Buyer Name</string>
+    <string name="hint_code">Item Code</string>
+    <string name="hint_amount">Quantity of Items</string>
+    <string name="str_type">Customer Type</string>
+    <string name="btn_gold">Gold</string>
+    <string name="btn_silver">Silver</string>
+    <string name="btn_regular">Regular</string>
+    <string name="btn_buy">Buy</string>
+    
+    <string name="str_welcome">"Welcome "</string>
+    <string name="str_Transaksi">Todays Transaction:</string>
+    <string name="str_thanks">Thank you for shopping!</string>
+    <string name="btn_share">Share</string>
+
+    <string name="result_type">Member Type : </string>
+    <string name="result_code">Item Code : </string>
+    <string name="result_name">Item Name : </string>
+    <string name="result_price">Price of Item : Rp. </string>
+    <string name="result_totalPrice">Total Price : Rp. </string>
+    <string name="result_disc">Price Discount : Rp. </string>
+    <string name="result_member">Member Discount : Rp. </string>
+    <string name="result_payment">Payment Amount : Rp. </string>
 </resources>

@@ -39,15 +39,15 @@ public class ResultActivity extends AppCompatActivity {
             barang = getIntent().getParcelableExtra(keyObject);
         }
 
-        welcomee.setText("Selamat Datang " + barang.getNama());
-        typeMember.setText("Tipe member : " + barang.getType());
-        codeBarang.setText("Kode Barang : " + barang.getKodeBarang());
-        namaBarang.setText("Nama Barang : " + barang.getNamaBarang());
-        hargaBarang.setText("Harga Barang : " + barang.getHargaBarang());
-        totalHarga.setText("Total Harga : " + formatter.format(Double.parseDouble(barang.getTotalHarga())));
-        diskonHarga.setText("Diskon Harga :  " + barang.getDiscHarga());
-        diskonMember.setText("Diskon Member : " + barang.getDiscMember());
-        jumlahBayar.setText("Jumlah Bayar : " + formatter.format(Double.parseDouble(barang.getTotalBayar())));
+        welcomee.setText(getString(R.string.str_welcome) + barang.getNama());
+        typeMember.setText(getString(R.string.result_type) + barang.getType());
+        codeBarang.setText(getString(R.string.result_code) + barang.getKodeBarang());
+        namaBarang.setText(getString(R.string.result_name) + barang.getNamaBarang());
+        hargaBarang.setText(getString(R.string.result_price) + barang.getHargaBarang());
+        totalHarga.setText(getString(R.string.result_totalPrice) + formatter.format(Double.parseDouble(barang.getTotalHarga())));
+        diskonHarga.setText(getString(R.string.result_disc) + barang.getDiscHarga());
+        diskonMember.setText(getString(R.string.result_member) + barang.getDiscMember());
+        jumlahBayar.setText(getString(R.string.result_payment) + formatter.format(Double.parseDouble(barang.getTotalBayar())));
 
         shareButton.setOnClickListener(click -> {
             Intent intent = new Intent(Intent.ACTION_SEND);

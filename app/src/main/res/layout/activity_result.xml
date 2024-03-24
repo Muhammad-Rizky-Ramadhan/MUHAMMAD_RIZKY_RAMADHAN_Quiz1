@@ -10,7 +10,7 @@
     <TextView
         android:paddingTop="25dp"
         android:id="@+id/welcome"
-        android:text="Selamat Datang"
+        android:text="@string/str_welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="174dp"
@@ -30,7 +30,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transaksi Hari Ini:"
+        android:text="@string/str_Transaksi"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="82dp"
         android:paddingLeft="10dp"/>
@@ -95,7 +95,7 @@
         android:id="@+id/tvThanks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Terimakasih Telah Berbelanja disini"
+        android:text="@string/str_thanks"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="82dp"
         android:paddingLeft="10dp"/>
@@ -104,7 +104,7 @@
         android:id="@+id/shareBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share"
+        android:text="@string/btn_share"
         tools:layout_editor_absoluteX="152dp"
         tools:layout_editor_absoluteY="239dp"
         android:layout_gravity="center"/>

@@ -13,7 +13,7 @@
         android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Pembeli">
+        android:hint="@string/hint_name">
     </EditText>
 
     <TextView
@@ -21,7 +21,7 @@
         android:id="@+id/typee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipe Pelanggan"
+        android:text="@string/str_type"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="43dp" />
 
@@ -36,19 +36,19 @@
             android:id="@+id/goldButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gold" />
+            android:text="@string/btn_gold" />
 
         <RadioButton
             android:id="@+id/silverButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Silver" />
+            android:text="@string/btn_silver" />
 
         <RadioButton
             android:id="@+id/regulerButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reguler" />
+            android:text="@string/btn_regular" />
     </RadioGroup>
 
     <EditText
@@ -56,7 +56,7 @@
         android:id="@+id/kodeBarang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kode Barang">
+        android:hint="@string/hint_code">
     </EditText>
 
     <EditText
@@ -64,7 +64,7 @@
         android:id="@+id/jumlahBarang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Jumlah Barang"
+        android:hint="@string/hint_amount"
         android:inputType="numberDecimal">
     </EditText>
 
@@ -72,7 +72,7 @@
         android:id="@+id/beliButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Beli"
+        android:text="@string/btn_buy"
         android:layout_gravity="center"/>
 
 </LinearLayout>
